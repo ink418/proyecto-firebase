@@ -1,16 +1,25 @@
-# React + Vite
+# Sistema de Información de Proyectos Tecnológicos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un catálogo interactivo de proyectos académicos desarrollado con React y desplegado en Firebase.
 
-Currently, two official plugins are available:
+## 🔗 Enlaces
+- **URL Pública (Firebase):** (https://iot-andres-6c440.web.app)
+- **Repositorio:** (https://github.com/ink418/proyecto-firebase)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías
+- **Frontend:** React + Vite
+- **Estilos:** CSS3 (Diseño responsivo y limpio)
+- **Hosting:** Firebase Hosting
+- **IA:** Google Gemini (Asistente de código)
 
-## React Compiler
+## 🤖 Uso de Inteligencia Artificial
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Herramienta usada:** Google Gemini
 
-## Expanding the ESLint configuration
+**¿Dónde fue útil la IA?**
+1. **Generación de Datos (Mock Data):** La IA generó el archivo `projects.js` con 6 proyectos ficticios completos (título, descripción, área, impacto) para poblar la aplicación rápidamente.
+2. **Lógica de Filtrado:** Ayudó a construir la función `filter()` compleja en `Catalog.jsx` para que los usuarios puedan filtrar por "Área" y "Estado" simultáneamente sin errores.
+3. **Estructura del Proyecto:** Sugirió la arquitectura de carpetas (`components/`, `data/`) y el uso de Vite para un entorno de desarrollo profesional.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Reflexión:**
+El uso de la IA actuó como un "programador par" (pair programmer). Me permitió saltar la parte repetitiva de inventar datos de prueba y escribir la lógica base de los arrays, permitiéndome enfocarme en entender cómo React maneja el estado (`useState`) y en el ensamblaje de los componentes y el despliegue.
